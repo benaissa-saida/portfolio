@@ -1,24 +1,22 @@
-# portfolio
+# Portfolio 
 
-## Project setup
-```
-npm install
-```
+## *Vous pourrez le trouver en suivant ce lien*
+💻 https://saida-benaissa.netlify.app/
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## :package: Made with
+* HTML
+* SASS
+* VUEJS
 
-### Compiles and minifies for production
-```
-npm run build
-```
+***
+![portfolio](/public/assets/screenshot/portfolio-1.png "portfolio-1")
 
-### Lints and fixes files
-```
-npm run lint
-```
+![portfolio](/public/assets/screenshot/portfolio-2.png "portfolio-2")
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![portfolio](/public/assets/screenshot/portfolio-3.png "portfolio-3")
+
+![portfolio](/public/assets/screenshot/portfolio-4.png "portfolio-4")
+
+## Auteur
+
+Saïda Benaïssa -- 2021
