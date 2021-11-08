@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --modern --mode",
+    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build-report": "vue-cli-service build --report"
+    "build-report": "vue-cli-service build --report",
+    "build-modern-mode": "vue-cli-service build --modern --mode"
   },
   "dependencies": {
     "core-js": "^3.19.1",
