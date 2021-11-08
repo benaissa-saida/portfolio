@@ -13,10 +13,14 @@
 
 ![portfolio](/public/assets/screenshot/portfolio-2.png "portfolio-2")
 
+***
+
 ![portfolio](/public/assets/screenshot/portfolio-3.png "portfolio-3")
+
+***
 
 ![portfolio](/public/assets/screenshot/portfolio-4.png "portfolio-4")
 
 ## Auteur
 
-Saïda Benaïssa -- 2021
+Saïda Benaïssa - 2021
