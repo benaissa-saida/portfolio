@@ -6,7 +6,7 @@
             <h2>Vous avez l'air d'être perdu</h2>
             <p>La page que vous recherchez n'existe pas</p>
         </div>
-        <router-link to="{name: 'Home'}" class="page_link">RETOUR À L'ACCUEIL</router-link>
+        <router-link to="{name: 'Home'}" class="page__link">RETOUR À L'ACCUEIL</router-link>
     </section>
 </template>
 
@@ -45,7 +45,7 @@ $color-activeLink: #BE3818;
     & img{
         width: 70%;
     }
-    &_link{
+    &__link{
         text-decoration: none;
         color: $color-activeLink;
         background-color: #fff;

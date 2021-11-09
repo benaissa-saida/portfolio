@@ -1,13 +1,13 @@
 <template>
     <section class="container">
         <div class="project">
-            <a :href="project.href" target="_blank" :key="project" v-for="project in projects" :title='`${ project.title }`' class="project_link">    
-                <span class="project_link--icon"><i :class="project.icon"></i></span>
-                <img class="project_link--img" :src="project.img" alt="{{project.id}}">
-                <div class="project_info">
-                    <h1 class="project_info--title">{{project.title}}</h1>
-                    <p class="project_info--descri">{{project.descri}}</p>
-                    <span class="project_info--techno"><strong>{{project.technos}}</strong></span>
+            <a :href="project.href" target="_blank" :key="project" v-for="project in projects" :title='`${ project.title }`' class="project__link">    
+                <span class="project__link--icon"><i :class="project.icon"></i></span>
+                <img class="project__link--img" :src="project.img" alt="{{project.id}}">
+                <div class="project__info">
+                    <h1 class="project__info--title">{{project.title}}</h1>
+                    <p class="project__info--descri">{{project.descri}}</p>
+                    <span class="project__info--techno"><strong>{{project.technos}}</strong></span>
                 </div>
             </a>
         </div>
@@ -132,7 +132,7 @@ $bg-secondary: #EC6C0C;
     border-radius: 2em;
     width: 50%;
     min-width: 280px;
-    &_link{
+    &__link{
         position: relative;
         border-radius: inherit;
         text-decoration: none;
@@ -143,9 +143,8 @@ $bg-secondary: #EC6C0C;
     }
 }
 
-.project_link{
+.project__link{
     &--img{
-        aspect-ratio: attr(width) / attr(height);
         object-fit: cover;
         height: 300px;
         width: 100%;
@@ -168,10 +167,10 @@ $bg-secondary: #EC6C0C;
         transform: scale(1.06);
         transition: 600ms;
     }
-    &:hover .project_info{
+    &:hover .project__info{
         display: none;
     }
-    &:hover .project_link--icon{
+    &:hover .project__link--icon{
         display: none;
     }
     &:active:link:visited{
@@ -179,7 +178,7 @@ $bg-secondary: #EC6C0C;
     }
 }
 
-.project_info{
+.project__info{
     max-height: 0px;
     position: absolute;
     bottom: 85%;
@@ -204,7 +203,7 @@ $bg-secondary: #EC6C0C;
 
 @media (min-width:600px) and (max-width:1000px){
   .project{
-    &_link{
+    &__link{
         width: 40%;
     }
   }
@@ -212,7 +211,7 @@ $bg-secondary: #EC6C0C;
 
 @media (min-width:1000px){
   .project{
-    &_link{
+    &__link{
         width: 30%;
     }
   }

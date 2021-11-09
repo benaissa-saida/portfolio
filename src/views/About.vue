@@ -3,28 +3,28 @@
     <main id="swup" class="transition-fade">
       <div class="contact">
         <h2>Contact</h2>
-        <div class="contact_link">
+        <div class="contact__link">
           <ul>
             <li>
-              <a href="https://github.com/benaissa-saida" class="contact_link--style contact_link--git">
+              <a href="https://github.com/benaissa-saida" class="contact__link--style contact__link--git">
                 <i class="fab fa-github"></i>
                 benaissa-saida
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/saida-benaissa-773863191/" class="contact_link--style">
+              <a href="https://www.linkedin.com/in/saida-benaissa-773863191/" class="contact__link--style">
                 <i class="fab fa-linkedin-in"></i>
                 Saida Benaissa 
               </a>
             </li>
           </ul>
-          <div class="contact_link--info">
+          <div class="contact__link--info">
             <p>
               En espérant que mes travaux vous aient plu, je suis disponible et à votre écoute !
               <br/>
               Vous pouvez à la fois me contacter via Linkedin et par mail. 
             </p>
-            <a href="mailto:'benaissasaida28@gmail.com'" class="contact_link--btn">
+            <a href="mailto:'benaissasaida28@gmail.com'" class="contact__link--btn">
               On en discute 
               <i class="fas fa-envelope"></i>
             </a>
@@ -54,7 +54,7 @@ $bg-secondary: #EC6C0C;
 	align-items: center;
 	align-content: center;
 	width: 100%;
-	&_link{
+	&__link{
 		display: flex;
     flex-direction: column;
     align-items: center;
@@ -114,7 +114,7 @@ $bg-secondary: #EC6C0C;
 
 @media (min-width:600px) and (max-width:1000px){
   .contact{
-    &_link{
+    &__link{
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
@@ -131,7 +131,7 @@ $bg-secondary: #EC6C0C;
 
 @media (min-width:1000px){
   .contact{
-    &_link{
+    &__link{
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;

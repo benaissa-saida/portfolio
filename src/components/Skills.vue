@@ -1,9 +1,9 @@
 <template>
   <div class="aside"> 
     <h2>Compétences</h2>
-    <div class="introduction_skills">
-      <button :key="skill" v-for="skill in skills" :title='`${ skill.title }`' class="introduction_skills--btn">
-        <img  width="100" height="100" :class="skill.id" class="introduction_skills--icone" :src="`${ skill.icon }`" :alt="`${ skill.id }`">
+    <div class="introduction__skills">
+      <button :key="skill" v-for="skill in skills" :title='`${ skill.title }`' class="introduction__skills--btn">
+        <img  width="100" height="100" :class="skill.id" class="introduction__skills--icone" :src="`${ skill.icon }`" :alt="`${ skill.id }`">
       </button>
     </div>
   </div>
@@ -70,7 +70,7 @@ $bg-primary: #fff1dd;
     margin-top: 1em;
   }
 }
-.introduction_skills{
+.introduction__skills{
   margin-top: 1em;
   display: flex;
   justify-content: center;
