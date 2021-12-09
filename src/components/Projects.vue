@@ -21,6 +21,7 @@ import orinoco from "@/assets/images/orinoco.jpg";
 import lachouetteagence from "@/assets/images/la-chouette-agence.jpg";
 import piquante from "@/assets/images/piquante.png";
 import groupomania from "@/assets/images/groupomania.png";
+import melimelo from "@/assets/images/floppy-bird.png";
 
 function getDataProject(){
     return [
@@ -74,14 +75,14 @@ function getDataProject(){
             technos: 'VUEJS, JAVASCRIPT, TAILWIND, NODEJS, EXPRESS, SEQUELIZE, MYSQL',
             id: 'GROUPOMANIA'
         },
-        // {
-        //     href: '', 
-        //     title: '', 
-        //     img: '',
-        //     descri: '',
-        //     technos: '',
-        //     id: ''
-        // },
+        {
+            href: 'https://meli-melo.netlify.app', 
+            title: 'MELI-MELO', 
+            img: melimelo,
+            descri: `Site regroupant plusieurs projets à la fois pour s'amuser(flappy bird, morpion, yoga, etc..) et pour s'aider (calculatrice, horloge numérique, todolist, etc..`,
+            technos: 'JAVASCRIPT, SASS, HTML, CSS',
+            id: 'MELI-MELO'
+        },
         // {
         //     href: '', 
         //     title: '', 
